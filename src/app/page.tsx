@@ -1,17 +1,14 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
-import DeleteIcon from "@mui/icons-material/Delete";
-import SendIcon from "@mui/icons-material/Send";
-import Stack from "@mui/material/Stack";
-import WebIcon from "@mui/icons-material/Web";
-import HomeIcon from "@mui/icons-material/Home";
 import { Typography } from "@mui/material";
 import Grid from "@mui/material/Grid";
+import Image from "next/image";
+import icon from "../../public/ahiru-and-yui-round.png";
+
 import { Exo_2 } from "next/font/google";
 const exo_2 = Exo_2({ weight: "400", subsets: ["latin"] });
 
 export default function Home() {
-  // return <main className={styles.main}>LINKページ仮サイト</main>;
   return (
     <Grid
       container
@@ -21,6 +18,9 @@ export default function Home() {
       spacing={1}
       sx={{ marginTop: "40px" }}
     >
+      <Grid item xs={12}>
+        <Image src={icon} alt="アイコン" width="70" height="70" />
+      </Grid>
       <Grid item xs={12}>
         <Typography className={exo_2.className} sx={{ fontSize: "35px" }}>
           swimu
@@ -63,7 +63,7 @@ export default function Home() {
             margin: "10px",
             textTransform: "none",
           }}
-          href="https://www.swimu.net/"
+          href="https://twitter.com/swimuuu/"
         >
           <Typography className={exo_2.className} sx={{ fontSize: "20px" }}>
             Twitter
@@ -85,7 +85,7 @@ export default function Home() {
             margin: "10px",
             textTransform: "none",
           }}
-          href="https://www.swimu.net/"
+          href="https://instagram.com/swimuuu/"
         >
           <Typography className={exo_2.className} sx={{ fontSize: "20px" }}>
             Instagram
@@ -107,7 +107,7 @@ export default function Home() {
             margin: "10px",
             textTransform: "none",
           }}
-          href="https://www.swimu.net/"
+          href="https://misskey.io/@swimu/"
         >
           <Typography className={exo_2.className} sx={{ fontSize: "20px" }}>
             Misskey.io
