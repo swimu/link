@@ -40,6 +40,9 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
+            hover: {
+              background: "#4c6cb3",
+            },
           }}
           href="https://www.swimu.net/"
         >
@@ -62,6 +65,9 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
+            hover: {
+              background: "#1da1f2",
+            },
           }}
           href="https://twitter.com/swimuuu/"
         >
@@ -84,6 +90,9 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
+            hover: {
+              background: "#CF2E92",
+            },
           }}
           href="https://instagram.com/swimuuu/"
         >
@@ -106,6 +115,9 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
+            hover: {
+              background: "#282C37",
+            },
           }}
           href="https://misskey.io/@swimu/"
         >
@@ -115,32 +127,5 @@ export default function Home() {
         </Button>
       </Grid>
     </Grid>
-    // <Stack spacing={2}>
-    //   <Typography>swimu</Typography>
-    //   <Button
-    //     variant="outlined"
-    //     startIcon={<WebIcon />}
-    //     href="https://www.swimu.net/"
-    //   >
-    //     blog
-    //   </Button>
-    //   <Button
-    //     variant="outlined"
-    //     startIcon={<HomeIcon />}
-    //     href="https://twitter.com/swimuuu/"
-    //   >
-    //     Twitter
-    //   </Button>
-    //   <Button
-    //     variant="outlined"
-    //     // startIcon={<MisskeyIcon />}
-    //     href="https://misskey.io/@swimu/"
-    //   >
-    //     misskey.io
-    //   </Button>
-    //   <Button variant="contained" endIcon={<SendIcon />}>
-    //     Send
-    //   </Button>
-    // </Stack>
   );
 }
