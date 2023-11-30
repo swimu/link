@@ -40,7 +40,7 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
-            hover: {
+            "&:hover": {
               background: "#4c6cb3",
             },
           }}
@@ -65,7 +65,7 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
-            hover: {
+            "&:hover": {
               background: "#1da1f2",
             },
           }}
@@ -90,7 +90,7 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
-            hover: {
+            "&:hover": {
               background: "#CF2E92",
             },
           }}
@@ -115,7 +115,7 @@ export default function Home() {
             textAlign: "center",
             margin: "10px",
             textTransform: "none",
-            hover: {
+            "&:hover": {
               background: "#282C37",
             },
           }}
