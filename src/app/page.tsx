@@ -69,7 +69,7 @@ export default function Home() {
               background: "#1da1f2",
             },
           }}
-          href="https://twitter.com/swimuuu/"
+          href="https://twitter.com/swimuuu"
         >
           <Typography className={exo_2.className} sx={{ fontSize: "20px" }}>
             Twitter
